@@ -84,9 +84,9 @@ h1 .grad{background:linear-gradient(90deg,var(--orange),var(--amber) 40%,var(--c
 @keyframes drop{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
 
 /* marquee */
-.marquee{border-block:1px solid var(--line);padding:22px 0;overflow:hidden;position:relative;z-index:2;background:var(--bg)}
+.marquee{border-block:1px solid var(--line);padding:10px 0;overflow:hidden;position:relative;z-index:2;background:var(--bg)}
 .marquee .track{display:flex;gap:56px;width:max-content;animation:mq 28s linear infinite}
-.marquee span{font-weight:800;font-size:clamp(18px,2.2vw,28px);letter-spacing:-.01em;text-transform:uppercase;color:#3b3943;white-space:nowrap;display:flex;align-items:center;gap:56px}
+.marquee span{font-weight:800;font-size:clamp(12px,1.2vw,15px);letter-spacing:-.01em;text-transform:uppercase;color:#3b3943;white-space:nowrap;display:flex;align-items:center;gap:56px}
 .marquee span::after{content:"✦";color:var(--orange);font-size:.6em}
 @keyframes mq{to{transform:translateX(-50%)}}
 
